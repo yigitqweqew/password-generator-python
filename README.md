@@ -1,2 +1,2 @@
 # password-generator
-Password generator written with pyhton
+Password generator written with python
