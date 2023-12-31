@@ -2,7 +2,7 @@ import secrets
 import string
 import getpass
 
-def generate_password(length=24):
+def generate_password(length=32):
     characters = string.ascii_letters + string.digits + string.punctuation
     password = ''.join(secrets.choice(characters) for _ in range(length))
     return password
